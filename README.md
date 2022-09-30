@@ -2,6 +2,7 @@
 Repository for the team's official website.
 
 ## Updating the Website
+[Link to KB Knowledge Article](https://nau.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014714)
 
 ### Windows
 Use Windows File Explorer to connect to: \\arshares.ucc.nau.edu\web\ceias.nau.edu\capstone\projects\ and then navigate down under <DEPARTMENT>\<YEAR>\<GROUP-NAME>
