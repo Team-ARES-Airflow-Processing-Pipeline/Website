@@ -1,16 +1,20 @@
-# Quinton's Starter Instructions
+# Quinton's setup instructions
 
-Hi there! So, in order to get this theme working properly, there are a few things that need to be done first:
+Hi there! Here are some quick instructions for how to set up the website development environment,
 
-1. Make sure you have ["Hugo Extended"](https://github.com/gohugoio/hugo/releases) installed, not just normal hugo
-2. Have Go installed to your system
+Before we get started, we have to make sure that some things have been done first:
 
-I imagine the website should load normally at this point when you run `hugo server`
+1. Make sure you have ["Hugo Extended"](https://github.com/gohugoio/hugo/releases) installed, not the regular Hugo version
+2. Make sure you have the latest version of the Go language installed
 
-But if it doesn't these steps should get you running:
+
+Once those conditions have been met, clone the repo in a sensible place
+
+Run the following command to install the template:
 
 ```bash
-# Run these commands from within the website directory
-hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3
-hugo mod tidy
+# Run this from within the website directory
+git submodule update --init --recursive
 ```
+
+At this point, the server should run when you execute `hugo server`
