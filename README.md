@@ -1,25 +1,16 @@
-# Website
-Repository for the team's official website.
+# Quinton's Starter Instructions
 
-## Updating the Website
-[Link to KB Knowledge Article](https://nau.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014714)
+Hi there! So, in order to get this theme working properly, there are a few things that need to be done first:
 
-### Windows
-Use Windows File Explorer to connect to: \\arshares.ucc.nau.edu\web\ceias.nau.edu\capstone\projects\ and then navigate down under <DEPARTMENT>\<YEAR>\<GROUP-NAME>
-The department abbreviation must be capitalized, for example EE, ME, CS, BIO, etc.
-for example: /www/ceias.nau.edu/capstone/projects/ME/2008/Prometheus
-When your web folder is selected, simply drag your web files from your local site over to the web folder.
-After uploading your web documents you can view your webpage from a web browser at
-http://ceias.nau.edu/capstone/projects/<DISCIPLINE>/<YEAR>/<GROUP-NAME>
-or find your page on the D4P Senior Capstone Design Projects page.
+1. Make sure you have ["Hugo Extended"](https://github.com/gohugoio/hugo/releases) installed, not just normal hugo
+2. Have Go installed to your system
 
-### Linux/Unix
-Once you have confirmation that your website has been set up and your groups web files have been created, you are ready to publish your site to the CEIAS web server. Access to the web server is available via a SMB Client: smb://arshares.ucc.nau.edu/web/ceias.nau.edu/capstone/projects/
+I imagine the website should load normally at this point when you run `hugo server`
 
-### Mac
-Once you have confirmation that your website has been set up and your group's web files have been created, you are ready to publish your site to the CEIAS web server. Access to the web server is available via a SMB connection using the "Connect to server" tool in Mac Finder.
-On Mac's Finder's toolbar find the "Connect to server" dialog and connect to: smb://arshares.ucc.nau.edu/web/ceias.nau.edu/capstone/projects/ and then navigate down under <DEPARTMENT>/<YEAR>/<GROUP-NAME>
-e.g.: smb://arshares.ucc.nau.edu/web/ceias.nau.edu/capstone/projects/ME/2008/Prometheus
-After uploading your web documents you can view your page from a web browser at
-http://ceias.nau.edu/capstone/projects/<DISCIPLINE>/<YEAR>/<GROUP-NAME>
-Or find your project on the D4P Senior Capstone Design Projects page.
+But if it doesn't these steps should get you running:
+
+```bash
+# Run these commands from within the website directory
+hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3
+hugo mod tidy
+```
