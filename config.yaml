@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://www.ceias.nau.edu/capstone/projects/CS/2022/TeamAres_F22/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
