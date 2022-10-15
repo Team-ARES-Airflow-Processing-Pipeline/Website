@@ -2,28 +2,19 @@ baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Team ARES
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Team ARES
         weight: 1
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+#disqusShortname: hugo-theme-stack
 
 # GA Tracking ID
-googleAnalytics:
+#googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -53,12 +44,12 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 
+        subtitle:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: images/High_res_ares_logo.png
 
     article:
         math: false
@@ -69,7 +60,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
