@@ -1,11 +1,13 @@
 ---
 title: Deliverables
 slug: deliverables
-layout: "deliverables"
 description: Collection of all deliverables submitted for this project
 menu:
-    main: 
+    main:
         weight: -90
         params:
             icon: user
 ---
+[Mini-Intro](mini-intro.pdf)  
+[Team Inventory Document](teamInventory.pdf)  
+[Team Standards Document](teamStandards.pdf)  
