@@ -1,0 +1,8 @@
+{{ $filesInDir := readDir "static/docs/meetingminutes" }}
+
+<!-- Produce img tags based on images in specified directory -->
+{{ range $filesInDir }}
+  <li>
+    <a href="{{ site.BaseURL }}/docs/meetingminutes/{{ .Name }}">{{ .Name }}</a>
+  </li>
+{{ end }}
