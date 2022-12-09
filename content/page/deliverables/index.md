@@ -11,3 +11,7 @@ menu:
 [Mini-Intro](mini-intro.pdf)  
 [Team Inventory Document](teamInventory.pdf)  
 [Team Standards Document](teamStandards.pdf)  
+[Mini-Intro Presentation](AirFlowProcessingPipeline)  
+[Poster Presentation](ResearchPoster-6)  
+[Project Feasibility Report](FeasibilityReportFinal)  
+[Project Requirements](RequirementsFinal)
