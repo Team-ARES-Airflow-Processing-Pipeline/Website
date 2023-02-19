@@ -4,17 +4,13 @@ Repository for the team's official website.
 ## Quinton's Setup Instructions
 Hi there! Here are some quick instructions for how to set up the website development environment,
 
-Before we get started, we have to make sure that some things have been done first:
+### Env Setup
+Before we get started, **Make sure you have ["Hugo Extended"](https://github.com/gohugoio/hugo/releases) installed, not the regular Hugo version**
 
-1. Make sure you have ["Hugo Extended"](https://github.com/gohugoio/hugo/releases) installed, not the regular Hugo version
-
-2. Make sure you have the latest version of the Go language installed
-
-Once those conditions have been met, clone the repo in a sensible place, then run the following command to install the template:
+Once those conditions have been met, clone the repo using the following command:
 
 ```bash
-# Run this from within the website directory
-git submodule update --init --recursive
+git clone git@github.com:Team-ARES-Airflow-Processing-Pipeline/Website.git
 ```
 
 At this point, the server should run when you execute `hugo server`
