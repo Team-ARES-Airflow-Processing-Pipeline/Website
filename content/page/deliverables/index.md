@@ -12,8 +12,8 @@ menu:
 ## Presentation Materials
 - [Mini-Intro](mini-intro.pdf)  
 - [Mini-Video Presentation](https://www.youtube.com/watch?v=Q8ULtCwcadw)
-- [Design Review Presentation](DesignReview.pdf) 
-- [Poster Presentation](ResearchPoster-6.pdf) 
+- [Design Review Presentation](DesignReview.pdf)
+- [Poster Presentation](ResearchPoster-6.pdf)
 ----
 
 ## Project Documentation
@@ -21,3 +21,4 @@ menu:
 - [Team Standards Document](teamStandards.pdf)  
 - [Project Feasibility Report](FeasibilityReportFinal.pdf)  
 - [Project Requirements](RequirementsFinal.pdf)
+- [Software Design Document](DesignDoc.pdf)
