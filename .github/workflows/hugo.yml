@@ -39,8 +39,12 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: "hugo --minify"
+      - name: Generate release tag
+        id: tag
+        run: |
+          echo "::set-output name=release_tag::UserBuild_$(date +"%Y.%m.%d_%H-%M")"
       - name: Deploy to Releases
         uses: softprops/action-gh-release@v1
         with:
-          tag-name: v0.1
+          tag-name: ${{ steps.tag.outputs.release_tag }}
           files: ./public/*
