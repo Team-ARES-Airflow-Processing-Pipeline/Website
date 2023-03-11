@@ -46,5 +46,5 @@ jobs:
       - name: Deploy to Releases
         uses: softprops/action-gh-release@v1
         with:
-          tag-name: ${{ steps.tag.outputs.release_tag }}
+          tag_name: ${{ steps.tag.outputs.release_tag }}
           files: ./public/*
