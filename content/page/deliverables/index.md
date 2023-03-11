@@ -14,6 +14,8 @@ menu:
 - [Mini-Video Presentation](https://www.youtube.com/watch?v=Q8ULtCwcadw)
 - [Design Review Presentation](DesignReview.pdf)
 - [Poster Presentation](ResearchPoster-6.pdf)
+- [Design Review 2](https://www.youtube.com/watch?v=_waX-l17bmk)
+
 ----
 
 ## Project Documentation
