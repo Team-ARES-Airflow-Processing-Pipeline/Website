@@ -24,3 +24,4 @@ menu:
 - [Project Feasibility Report](FeasibilityReportFinal.pdf)  
 - [Project Requirements](RequirementsFinal.pdf)
 - [Software Design Document](DesignDoc.pdf)
+- [Software Testing Plan](SoftwareTestingPlan.pdf)
