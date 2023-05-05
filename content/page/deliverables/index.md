@@ -15,6 +15,7 @@ menu:
 - [Design Review Presentation](DesignReview.pdf)
 - [Poster Presentation](ResearchPoster-6.pdf)
 - [Design Review Presentation 2](https://youtu.be/EEUstwsIchA)
+- [Mini-Video Presentation 2](https://youtu.be/bJl2QAHoqTE)
 
 ----
 
